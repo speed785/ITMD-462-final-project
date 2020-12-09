@@ -1,0 +1,38 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/editMyAccount.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="/myAccount">My Account</a>
+        <div>
+            <a href="/about">How it works</a>
+            <a href="#My Orders">My Orders</a>
+            <a href="#Get instant Quotes">Get instant Quotes</a>
+        </div>
+    </div>
+    <div class="leftmenu">
+        <a href="/myAccount">My account</a>
+        <a class="active" href="/editMyAccount">Edit my account</a>
+        <a href="/changeMyPassword">Change my password</a>
+    </div>
+    <div class="rightmenu">
+        <h3>Edit my profile</h3>
+        <div id="line-separator"></div>
+        <form action="/action_page.php">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName"><br><br>
+            <label for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="lastName"><br><br>
+            <label for="phone">Phone number:</label>
+            <input type="text" id="phone" name="phone"><br><br>
+            <input type="submit" value="Cancel">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>

@@ -1,0 +1,78 @@
+
+body {
+    background-color: #FEFEFE;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navbar*/
+/*------------------------------------------------*/
+/*Navbar color*/
+.topnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*navbar text*/
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*When the mouse hovers over the selection*/
+.topnav a:hover {
+    background-color: #FAF7EE;
+    color: black;
+}
+
+/*Current Page selection*/
+.topnav a.active {
+    color: black;
+}
+
+#line-separator {
+    border-top: 5px solid #ddd;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/*leftmenu*/
+/*------------------------------------------------*/
+/*Navbar color*/
+.leftmenu {
+    display: inline-grid;
+    margin-top: 20%;
+    border-right: solid 5px gray;
+}
+
+/*navbar text*/
+.leftmenu a {
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*When the mouse hovers over the selection*/
+.leftmenu a:hover {
+    background-color: #FAF7EE;
+    color: black;
+}
+
+/*Current Page selection*/
+.leftmenu a.active {
+    color: black;
+}
+
+/*rightmenu*/
+/*----------------------------------------------------*/
+.rightmenu {
+    display: inline-grid;
+    padding-left: 50px;
+    margin-left: 20%;
+}

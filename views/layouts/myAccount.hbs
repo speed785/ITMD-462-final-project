@@ -1,0 +1,52 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Account</title>
+    <link rel="stylesheet" type="text/css" href="css/myAccount.css" />
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="myAccount.html">My Account</a>
+        <div>
+            <a href="/about">How it works</a>
+            <a href="#My Orders">My Orders</a>
+            <a href="#Get instant Quotes">Get instant Quotes</a>
+        </div>
+    </div>
+    <div class="rblock">
+        <div class="leftmenu">
+            <a class="active" href="#My account">My account</a>
+            <a href="/editMyAccount">Edit my account</a>
+            <a href="/changeMyPassword">Change my password</a>
+        </div>
+        <div class="rightmenu">
+            <h3>My Account</h3>
+            <h4>Profile</h4>
+            <div id="line-separator"></div>
+
+            <div>
+                <p>Email address</p>
+                <p id="email"></p>
+            </div>
+            <div>
+                <p>First name</p>
+                <p id="firstName"></p>
+            </div>
+            <div>
+                <p id="lastName">
+                </p>Last name</p>
+            </div>
+            <div>
+                <p>Phone number</p>
+                <p id="phone"></p>
+            </div>
+            <button onclick="location.href='/editMyAccount'" type="button">
+                Edit profile
+            </button>
+            <p>Your account will be removed and you no longer be able to log in.</p>
+            <p>This action can not be undone.</p>
+            <input type="button" value="Delete account" />
+        </div>
+    </div>
+</body>

@@ -1,0 +1,91 @@
+body {
+    background: #27474E;
+    /*From http://flatuicolors.com/ */
+}
+
+/*Box containing the login*/
+form {
+    position: relative;
+    width: 360px;
+    height: 250px;
+    margin: 23% auto;
+    text-align: center;
+    background: #3B6064;
+    padding: 40px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 0px 1px 0px;
+    box-shadow: 5px 5px 5px;
+}
+
+/*login title*/
+h4, .form-group {
+    font-family: 'Montserrat',
+    sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: #F2E2BA;
+}
+
+/*When typing password/username*/
+input {
+    display: block;
+    width: 315px;
+    padding: 14px;
+    border-radius: 6px;
+    border: 0;
+    margin-bottom: 12px;
+    color: #2F323A;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*When typing inside textbox for username and password*/
+input:focus {
+    background: #fafafa;
+}
+
+/*Forgot your password?*/
+li {
+    position: absolute;
+    right: 40px;
+    bottom: 62px;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+/*Forgot your password?*/
+a,a:visited {
+    text-decoration: none;
+    color: #F2E2BA;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+
+/*button*/
+.button,
+.btn-btn-info,
+.btn-btn-secondary {
+    position: relative;
+    font-family: 'Montserrat',
+    sans-serif;
+    float: left;
+    width: 145px;
+    margin-top: 10px;
+    background: #F2E2BA;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 0px #c6d6ac;
+    box-shadow: 0px 3px 0px #c6d6ac;
+    transition: all .3s ease-in-out;
+}
+
+/* ----------------------------------------------------------------*/
+/*rightmenu*/
+/*----------------------------------------------------*/
+.rightmenu {
+    display: inline-grid;
+    padding-left: 50px;
+    margin-left: 20%;
+}
